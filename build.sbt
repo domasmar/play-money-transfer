@@ -22,7 +22,8 @@ libraryDependencies ++= Seq(
 
 routesImport ++= Seq(
   "java.util.UUID",
-  "controllers.parser.UuidParser"
+  "play.api.mvc.PathBindable._",
+  "play.api.mvc.QueryStringBindable._"
 )
 
 resolvers ++= Seq(
