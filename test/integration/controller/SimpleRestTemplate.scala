@@ -32,10 +32,7 @@ trait SimpleRestTemplate {
     val responseAsync = WsTestClient.wsUrl(url)(port).post(writes.writes(body))
     val response = Await.result(responseAsync, Duration.Inf)
 
-    Response[Unit](
-      response.status,
-      null
-    )
+    Response[Unit](response.status, ())
   }
 
 
