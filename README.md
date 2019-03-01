@@ -3,6 +3,15 @@
 
 Simple API implementation for making money transfer between 2 accounts
 
+**Requirements**
+
+* `sbt`
+
+**Usage**
+
+* `run.sh` to run server on 9000 port. JVM remote debugger is on 9900 port.
+* `test.sh` to run tests
+
 **Create account**
 ----
 
