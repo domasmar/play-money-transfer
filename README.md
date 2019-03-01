@@ -28,7 +28,7 @@ Simple API implementation for making money transfer between 2 accounts
 
   ```json
    { 
-    "name": "Bob",
+    "name": "Bob"
    }
   ```
  
