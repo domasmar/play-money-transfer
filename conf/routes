@@ -1,0 +1,5 @@
+
+POST        /account                            @controllers.Controller.createAccount()
+GET         /account/:accountId/transfer        @controllers.Controller.getTransfers(accountId: UUID)
+
+POST        /transfer                           @controllers.Controller.createTransfer()
