@@ -1,4 +1,4 @@
-**Money Transfer**
+**Money Transfer** [![Build Status](https://travis-ci.org/domasmar/play-money-transfer.svg?branch=master)](https://travis-ci.org/domasmar/play-money-transfer)
 ----
 
 Simple API implementation for making money transfer between 2 accounts
